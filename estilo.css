@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Koulen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Rubik:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Code+Pro:wght@700&display=swap');
+
+:root {
+    
+    --fonte-destaque1: 'Akshar', cursive;
+    --fonte-destaque2: 'Rubik', sans-serif;
+    --fonte-destaque3: 'Source Code Pro', monospace;
+
+    --cor0: #524368;
+    --cor1: #2E2738;
+    --cor2: #180D28;
+    --cor3: #0C0418;
+    --cor4: #231933;
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
+      
+}
+
+@keyframes animacao {
+    from {background-color: #524368; width: 100%;}
+    to {background-color: #180D28 }
+}
+
+body {
+   width: 100%; 
+   height: 100%;
+   background-color: #433756; 
+   animation-name: animacao;
+   animation-duration: 6s; 
+   animation-delay: 2s;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
+    min-height: 90px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--fonte-destaque1);
+}
+
+img
+{
+    width: 100%;
+}
+
+header h1 {
+    
+    font-size: 3em;
+    font-family: var(--fonte-destaque3);
+    color: white;
+}
+
+header p {
+    max-width: 500px;
+    margin: auto;   
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 250px;
+    padding: 60px;
+    margin: auto;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque3);
+    font-size: 2.0em;
+    padding: 0px;
+    color: var(--cor3);
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque2) ;
+    margin: 15px, 0px;
+    line-height: 1.5em;
+}
+
+main img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+    
+}
+
+main ol {
+    font-family: var(--fonte-destaque3);
+    font-size: 1.3em;
+    padding: 30px;
+}
+
+ol a:hover {
+    background-color: var(--cor0);
+}
+
+nav {
+    background-color:#2E2738;
+    padding: 10px;
+}
+
+
+ul {
+    font-family: var(--fonte-destaque2);
+    padding: 30px;
+}
+
+table {
+    max-width: 20%;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*-------------------------------*/
+
+.titulo {
+    margin-top: 20px;
+}
+
+.motivação {
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: center;      
+}
+
+.motivação p
+{
+    font-family: var(--fonte-destaque1);
+    font-size: 25px;
+    text-align: center;    
+}
+
+.motivação p::first-line {
+    font-weight: bold;
+}   
+
+.motivação img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.cultivo img{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.cultivo h2 {
+    color: var(--cor3);
+    font-family: var(--fonte-destaque3);
+}
+
+.cultivo ul {
+    font-family: var(--fonte-destaque2);
+    font-size: 1.3em;
+}
+
+.exportacao {
+    text-decoration: none;
+}
+
+.receitas p {
+    font-family: var(--fonte-destaque2);
+    font-size: 1em;
+}
+
+.receitas iframe {
+    max-width: 100%;
+}
+
+.receitas img {
+    max-width: 270px;
+    max-height: 350px;
+}
+
+.receitas li {
+    font-size: 1.2em;
+}
+
+.info {
+    font-size: 0.8em;
+}
+
+.tabela {
+    font-family: var(--fonte-destaque2);
+    font-size: 1.0em;
+    padding: 0px;
+}
+
+.ativo {
+    background-color: var(--cor3);
+    font-family: var(--fonte-destaque1);
+}
+
+.quiz h1 {
+    font-family: var(--fonte-destaque3);
+    font-size: 2.0em;
+}
+
+.quiz {
+    font-family: var(--fonte-destaque2);
+}
+
+.quiz h2 {
+    font-size: 1.3em;
+}
+
+.linkpais {
+    font-size: 1.3em;
+}
+
+.linkpais a:hover, :active {
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+.links a:hover, :active {
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+.nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-destaque1);
+    font-size: 20px ;   
+}
+
+.nav > a:hover {
+    background-color: var(--cor4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
